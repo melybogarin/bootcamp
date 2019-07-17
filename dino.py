@@ -24,3 +24,13 @@ print(pepe.nombre)
 pepe.saludar()
 pepe.decir_genero() 
 pepe.cortar_patas()
+
+class Trex(Dino):
+
+    def __init__(self,nombre,patas=4,color=None):
+        self.nombre =nombre
+        self.patas = patas
+        self.color = color
+        print("hola soy un trex y me llamo",self.nombre)
+robert = Trex ("roberto el TREX")
+print(robert.ojos)
